@@ -1,0 +1,25 @@
+name = "mysql-oms"
+command = "uvx"
+args = [
+    "--from",
+    "mysql-mcp-server",
+    "mysql_mcp_server",
+]
+scope = ["project"]
+agents = [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "opencode",
+    "gemini",
+    "antigravity",
+    "cline",
+]
+
+[env]
+MYSQL_HOST = "192.168.2.44"
+MYSQL_PASSWORD = "mabang123"
+MYSQL_PORT = "3306"
+MYSQL_USER = "mabang"

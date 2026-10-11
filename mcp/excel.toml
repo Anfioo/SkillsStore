@@ -1,0 +1,17 @@
+name = "excel"
+command = "excel-mcp-server"
+args = ["stdio"]
+scope = ["project"]
+agents = [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "opencode",
+    "gemini",
+    "antigravity",
+    "cline",
+]
+
+[env]

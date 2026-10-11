@@ -1,0 +1,21 @@
+name = "codegraph"
+command = "codegraph"
+args = [
+    "serve",
+    "--mcp",
+]
+scope = ["project"]
+agents = [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "copilot",
+    "codex",
+    "opencode",
+    "gemini",
+    "antigravity",
+    "cline",
+]
+
+[env]
+CODEGRAPH_QUERY_BUSY_TIMEOUT_MS = "120000"
