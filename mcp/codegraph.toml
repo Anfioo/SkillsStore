@@ -18,4 +18,3 @@ agents = [
 ]
 
 [env]
-CODEGRAPH_QUERY_BUSY_TIMEOUT_MS = "120000"
